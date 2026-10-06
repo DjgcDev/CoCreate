@@ -1,0 +1,12 @@
+Deploying to Vercel
+-------------------
+Drag this whole folder in, or `vercel` from inside it. No build step,
+no framework preset -- it is a static site. Keep every file together:
+
+  index.html          the page
+  three.min.js        the 3D engine (self-hosted on purpose)
+  cocreate-reel.mp4   the studio video
+  testimonials/       your testimonial clips
+
+three.min.js is loaded from here first, then from public CDNs only as a
+backup. Deleting it makes the 3D stage depend on a CDN again.
