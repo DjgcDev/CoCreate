@@ -1,2 +1,4 @@
-Put your testimonial clips here, then list their filenames in the
-TESTIMONIALS array near the top of the last <script> block in index.html.
+Put your testimonial clips in this folder, then list their filenames
+in the TESTIMONIALS array near the top of the last <script> block
+in index.html. Add a name and role to each and they appear as a
+caption under the player.
